@@ -16,6 +16,7 @@
     color: var(--title-text-color);
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 
     @include transition (color, background-color, box-shadow);
 
