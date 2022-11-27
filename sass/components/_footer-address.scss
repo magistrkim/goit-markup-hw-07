@@ -1,0 +1,26 @@
+.footer-address-wrap {
+    margin-right: 70px;
+}
+.address-list {
+    margin-top: 20px;
+    font-style: normal;
+    font-size: var(--font-size-main);
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.address-list-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+.footer  .footer-address.link {
+    color: var(--secondary-title-color); 
+
+    @include transition (color);
+}
+.footer .link {
+    color: var(--footer-link-color);
+    
+    @include transition (color, border-color);
+}
+.footer .link:hover, .footer .link:focus {
+    color: var(--accent-color);
+}
